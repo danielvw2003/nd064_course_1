@@ -4,4 +4,4 @@ data:
 kind: ConfigMap
 metadata:
   name: dep-version
-  namespace: {{ .Values.image.tag }}
+  tag: {{ .Values.image.tag }}
