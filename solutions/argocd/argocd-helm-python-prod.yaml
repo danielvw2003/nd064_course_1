@@ -11,7 +11,7 @@ spec:
   source:
     helm:
       valueFiles:
-      - values-prod.yaml 
+      - values-prod.yaml
     path: solutions/helm/python-helloworld 
     repoURL: https://github.com/danielvw2003/nd064_course_1 
     targetRevision: HEAD
