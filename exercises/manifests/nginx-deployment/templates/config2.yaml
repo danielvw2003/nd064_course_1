@@ -3,6 +3,7 @@ data:
   version: al1
   image: {{ .Values.image.tag }}
   test: {{ .Values.namespace.name }}
+  good: { qtest: one }
 kind: ConfigMap
 metadata:
   name: {{ .Values.image.tag }}
