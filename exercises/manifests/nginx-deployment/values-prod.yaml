@@ -19,3 +19,4 @@ resources:
 
 configmap:
   data: "version: 1.17.0"
+  data: "time: 00:00:01"
